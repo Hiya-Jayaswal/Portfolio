@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lugrasimo&family=Lunasima&family=Noto+Sans:ital,wght@0,200;0,300;0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lunasima&family=Noto+Sans:ital,wght@0,200;0,300;0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Inter:wght@300;400;500&family=Lugrasimo&family=Lunasima&family=Noto+Sans:ital,wght@0,200;0,300;0,400;1,500&display=swap');
+body{
+    background-color: rgb(35, 99, 189);
+    color: rgb(249, 249, 249);
+    font-family:var(--font-base)
+    }
+:root{
+    --font-base:"Dancing Script"
+}
+h1{
+    font-size: 100%;
+    font-weight:bolder;
+    font-family: var(--font-base);
+    color: aliceblue;
+    
+}
+h2,h3,h4,h5{
+    color:rgb(68, 2, 125);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+h6{
+    color:rgb(255, 108, 100);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(240, 204, 0);
+    transition: all 0.4s ease;
+    
+}
+
+a:hover {
+    color:rgb(0, 0, 0);
+
+}
+.navbar.nav-link{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(225, 255, 0);
+    
+}
+.navbar .nav-link:hover{
+    color: aqua;
+}
+
+img{
+    width: 100%;
+}
+
+.bg-base{
+    background-color:rgb(104, 146, 244)
+}
+
+.shadow-effect{
+    transition: all 0.5s;
+}
+.shadow-effect:hover{
+    box-shadow: -6px 6px 0 0 rgb(255, 135, 92);
+}
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+@media(min-width: 999px){
+    .navbar{
+        min-height: 100vh;
+        width: 500px;
+        background: linear-gradient(rgba(235, 83, 63, 0.903), rgba(255, 127, 80, 0.903)), url(../images/sidebar.webp);
+        background-position: center;
+    }
+}
+#content{
+    padding-left: 600px ;
+}
+
+.btn{
+    padding: 8px,15px;
+    font-weight: 700;
+}
+
+.btn-p{
+    background-color: yellow;
+}
+
+.btn-p:hover,
+.btn-p:focus{
+    background-color: yellow;
+    color: chocolate;
+}
